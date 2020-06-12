@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TipCalculator", "TipCalculator", "{BC7726D3-CA56-4308-B68A-72AB3B8CA42C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipCalculator.Core", "TipCalculator.Core\TipCalculator.Core.csproj", "{521A39AB-14DF-4D7A-A310-C4FFE9F869BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalculator.Android", "TipCalculator.Android\TipCalculator.Android.csproj", "{A2B60626-394F-4A40-A475-B3068A02EEBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{4096F48C-D32B-4CAD-8022-011713E1560B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Core", "Factorial.Core\Factorial.Core.csproj", "{27548056-F301-42DA-895A-B25FC4E82059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Android", "Factorial.Android\Factorial.Android.csproj", "{2883A697-08F4-4E46-8644-4FD3F6569ADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521A39AB-14DF-4D7A-A310-C4FFE9F869BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521A39AB-14DF-4D7A-A310-C4FFE9F869BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521A39AB-14DF-4D7A-A310-C4FFE9F869BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521A39AB-14DF-4D7A-A310-C4FFE9F869BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B60626-394F-4A40-A475-B3068A02EEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B60626-394F-4A40-A475-B3068A02EEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B60626-394F-4A40-A475-B3068A02EEBB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2B60626-394F-4A40-A475-B3068A02EEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B60626-394F-4A40-A475-B3068A02EEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B60626-394F-4A40-A475-B3068A02EEBB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{27548056-F301-42DA-895A-B25FC4E82059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27548056-F301-42DA-895A-B25FC4E82059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27548056-F301-42DA-895A-B25FC4E82059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27548056-F301-42DA-895A-B25FC4E82059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2883A697-08F4-4E46-8644-4FD3F6569ADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2883A697-08F4-4E46-8644-4FD3F6569ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2883A697-08F4-4E46-8644-4FD3F6569ADF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2883A697-08F4-4E46-8644-4FD3F6569ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2883A697-08F4-4E46-8644-4FD3F6569ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2883A697-08F4-4E46-8644-4FD3F6569ADF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{521A39AB-14DF-4D7A-A310-C4FFE9F869BE} = {BC7726D3-CA56-4308-B68A-72AB3B8CA42C}
+		{A2B60626-394F-4A40-A475-B3068A02EEBB} = {BC7726D3-CA56-4308-B68A-72AB3B8CA42C}
+		{27548056-F301-42DA-895A-B25FC4E82059} = {4096F48C-D32B-4CAD-8022-011713E1560B}
+		{2883A697-08F4-4E46-8644-4FD3F6569ADF} = {4096F48C-D32B-4CAD-8022-011713E1560B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38ED526B-7195-4E9C-A657-EA567DB5692B}
+	EndGlobalSection
+EndGlobal
